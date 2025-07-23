@@ -8,4 +8,9 @@ class SumNumber
     {
         return $a + $b;
     }
+
+    public function addPlus(int $a, int $b): int
+    {
+        return $a + $b + 2;
+    }
 }
