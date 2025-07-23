@@ -7,7 +7,7 @@ services:
       - 10801:1080
     networks:
       - dopper_network
-      
+
   db:
     container_name: dopper_db
     image: "postgres:12-alpine"
@@ -30,4 +30,4 @@ volumes:
 networks:
   dopper_network:
     name: dopper_network
-  
+
