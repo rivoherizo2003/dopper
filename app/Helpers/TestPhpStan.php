@@ -1,6 +1,9 @@
 <?php
 
 //generate class TestPhpStan
+
+namespace App\Helpers;
+
 class TestPhpStan
 {
     //generate method testPhpStan
@@ -9,6 +12,7 @@ class TestPhpStan
         //generate variable $testPhpStan
         $testPhpStan = 'testPhpStan';
         if ($testPhpStan == $x) {
+            $sum = new SumNumber();
             //return variable $testPhpStan
             return $testPhpStan;
         }
