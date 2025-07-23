@@ -14,7 +14,10 @@ In this project we will setup phpstan, phpcs, php linter and test coverate, CI/C
 ```bash
 vendor/bin/phpstan analyse
 ```
-
+## Config git to look at /hooks not at .git/hooks
+```bash
+git config core.hooksPath hooks
+```
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

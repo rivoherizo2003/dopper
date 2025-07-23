@@ -16,6 +16,7 @@ class TestPhpStan
             //return variable $testPhpStan
             return $testPhpStan;
         }
+        /* $sum->add(2, 3); */
         //return variable $testPhpStan
         return $testPhpStan;
     }
